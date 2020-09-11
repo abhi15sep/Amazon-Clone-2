@@ -8,7 +8,7 @@ function Home() {
                     <img
                         className='home__hero'
                         src='/assets/amazon-hero.jpg'
-                        alt='hero image'
+                        alt='hero'
                     />
                 </div>
             <div className="home__container">
