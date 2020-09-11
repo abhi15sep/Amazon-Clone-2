@@ -87,3 +87,113 @@ input[type=text]:focus {
 .header__basketCount {
     margin: 0 10px;
 }
+
+
+.header2 {
+    display: flex;
+    color: #fff;
+    height: 37px;
+    background: #232f3e;
+    justify-content: space-between;
+    text-transform: capitalize;
+
+
+
+    .header2__delivery {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        margin-left: 5px;
+
+        p:first-child {
+            font-size: .6rem;
+        }
+
+        p:nth-child(2) {
+            font-weight: bold;
+            font-size: .8rem;
+        }
+
+        .header2__deliveryAddress {
+            margin-left: 5px;
+        }
+    }
+
+    .header2__nav {
+        display: flex;
+
+        align-items: center;
+
+        .header2__option {
+            box-sizing: border-box;
+            font-size: .8rem;
+            font-weight: bold;
+
+            a {
+                all: unset;
+                cursor: pointer;
+                padding: 3px 7px;
+                border: 1px solid rgba(255, 255, 255, 0);
+                color: #fff;
+
+                &:hover {
+                    border: 1px solid rgba(255, 255, 255, 0.616);
+                    border-radius: 2px;
+                }
+            }
+
+            margin: 0 5px;
+
+        }
+
+    }
+
+    .header2__prime {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        color: #00a4e0;
+
+        span {
+            font-weight: 500;
+            color: #fff;
+            text-transform: lowercase;
+            span {
+                border-bottom: 1px solid #fff
+
+            }
+        }
+
+        .MuiSvgIcon-root {
+            margin-right: 5px;
+            color: #00a4e0;
+            font-size: 2rem;
+            z-index: 2;
+            position: relative;
+        }
+
+        .playButtonInner {
+            height: 15px;
+            width: 15px;
+            background:#fff;
+            position: absolute;
+            z-index: 1;
+            margin-left: 6px;
+        }
+
+        .tri {
+            width: 0px;
+            height: 0px;
+            background: transparent;
+            border-top: 19px solid #2478b8;
+            border-bottom: 19px solid #00a4e0;
+            border-left: 19px solid transparent;
+            border-right: 19px solid #00a4e0;
+
+
+        }
+
+
+    }
+
+}
