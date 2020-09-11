@@ -19,7 +19,7 @@
 
 
     .hero__container {
-        margin-bottom: -150px;
+        margin-bottom: calc(-150px - 210px);
         // height: 600px;
         // background: url('/assets/amazon-hero.jpg');
         // background-size: cover;
