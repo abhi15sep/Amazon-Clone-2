@@ -11,7 +11,7 @@
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
-    margin-top: l8px;
+    margin-top: 8px;
 }
 
 .header__search {
@@ -158,9 +158,9 @@ input[type=text]:focus {
             font-weight: 500;
             color: #fff;
             text-transform: lowercase;
+
             span {
                 border-bottom: 1px solid #fff
-
             }
         }
 
@@ -175,7 +175,7 @@ input[type=text]:focus {
         .playButtonInner {
             height: 15px;
             width: 15px;
-            background:#fff;
+            background: #fff;
             position: absolute;
             z-index: 1;
             margin-left: 6px;
