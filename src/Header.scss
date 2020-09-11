@@ -26,7 +26,9 @@
     padding: 10px;
     border: none;
     width: 100%;
-    border-radius: 4px 0 0 4px;
+    border-radius: 4px;
+    margin-right: -34px;
+
 
 }
 
@@ -35,6 +37,21 @@
     height: 22px !important;
     padding: 5px;
     border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+input[type=text] {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    outline: none;
+
+}
+
+input[type=text]:focus {
+    box-shadow: 0 0 2px 2px #ff9900;
+    border: 1px solid #ff9900;
 }
 
 .header__optionLineOne {

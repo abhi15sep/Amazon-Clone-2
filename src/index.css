@@ -6,16 +6,20 @@
 @import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
 
 body {
+  margin: 0;
+  background: rgba(235,237,237);
   font-family: Amazon Ember;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* background: linear-gradient(217deg, rgba(255,0,0,.2), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(0,255,0,.2), rgba(0,255,0,0) 70.71%),
+  linear-gradient(180deg, rgba(3, 0, 156, 0.2), rgba(3, 0, 177, 0.438) 70.71%),
+  linear-gradient(336deg, rgba(0, 0, 255, 0.2), rgba(0,0,255,0) 70.71%); */
+  /* background-color:rgb(255, 255, 255); */
+  
+  background-blend-mode: overlay;
 
-            background:
-            /* linear-gradient(90deg, rgba(21, 128, 74, 0.8), rgba(255,0,0,0) 100%),
-            radial-gradient(ellipse at bottom, rgba(255,0,0,.8), rgba(255,0,0,0) ) */
-            /* linear-gradient( .9turn, red,  blue); */
-
-
-          ;
-          /* background-blend-mode: exclusion; */
-            /* background-repeat: no-repeat; */
-            height: 100vh;
+        
+      
 }
