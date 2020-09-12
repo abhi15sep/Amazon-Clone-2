@@ -1,0 +1,92 @@
+$footer1: #37475A;
+$footer2: #232F3E;
+$footer3: #131A22;
+
+
+.footer {
+    text-transform: capitalize;
+
+
+    .backtoTop {
+        background: $footer1;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        padding: 1rem 0;
+    }
+
+
+
+    .footer__linkLists {
+        padding: 2rem 0;
+        margin: auto;
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .footer__countries {
+
+        .footer__amazonLogo {
+            display: flex;
+            justify-content: center;
+
+            img {
+                margin-top: 25px;
+                width: 76px;
+            }
+        }
+    }
+
+    .footer__countriesList {
+        display: flex;
+        justify-content: center;
+
+        li {
+            padding: 7.5px;
+        }
+
+        padding-bottom:1rem;
+    }
+
+    .footer__smallPrint {
+        background: $footer3;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        li {
+            padding: 0  .5rem;
+        }
+
+    }
+}
+
+.horizontalRule {
+    background: $footer2;
+    height: 0px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.934);
+}
+
+a {
+    all: unset;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+li {
+    list-style: none;
+    line-height: 200%;
+}
+
+.footer__listTitle {
+    font-weight: bold;
+    color: #fff;
+    font-family: amazon-ember-bold;
+}
+
+.footer__wrapperLinkLists {
+    background: $footer2;
+}
