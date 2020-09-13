@@ -1,20 +1,20 @@
 @import './breakpoints.scss';
 
-.home {
+.ProductPage {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     max-width: 1500px;
     flex-direction: column;
 
-    .home__row {
+    .ProductPage__row {
         display: flex;
         z-index: 1;
         margin: 0 5px;
 
     }
 
-    .home__container {}
+    .ProductPage__container {}
 
 
 
@@ -25,7 +25,7 @@
         // background-size: cover;
 
 
-        .home__hero {
+        .ProductPage__hero {
             height: 600px;
             width: 100vw;
             max-width: 1500px;

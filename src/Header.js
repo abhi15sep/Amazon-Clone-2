@@ -67,34 +67,68 @@ function Header() {
                 <div className="navbar__delivery">
                     <PersonPinCircleIcon />
                     <div className="navbar__deliveryAddress">
-                        <p>deliver to</p>
-                        <p>united kingdom</p>
+                        <p>deliver&nbsp;to</p>
+                        <p>united&nbsp;kingdom</p>
                     </div>
                 </div>
                 <div className="navbar__nav">
                     <div className="navbar__option">
-                        <a href="">best sellers</a>
+                    <Link to='/home'>today's&nbsp;deals</Link>
                     </div>
                     <div className="navbar__option">
-                        <a href="">prime video</a>
+                        <Link to='/books'>books</Link>
                     </div>
                     <div className="navbar__option">
-                        <a href="">todady's deals</a>
+                        <a href="">clothing</a>
                     </div>
                     <div className="navbar__option">
-                        <a href="">customer service</a>
+                        <a href="">computers&nbsp;&&nbsp;accessories</a>
                     </div>
                     <div className="navbar__option">
-                        <a href="">books</a>
+                        <a href="">home&nbsp;&&nbsp;kitchen</a>
                     </div>
                     <div className="navbar__option">
-                        <a href="">new releases</a>
+                        <a href="">garden&nbsp;&&nbsp;outdoor</a>
                     </div>
+                    <div className="navbar__option">
+                        <a href="">baby&nbsp;products</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">grocery</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">health&nbsp;&&nbsp;personal&nbsp;care</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">luggage</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">shoes&nbsp;&&nbsp;bags</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">sports&nbsp;&&nbsp;outdoor</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">stationairy&nbsp;&&nbsp;office</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">toys&nbsp;&&nbsp;games</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">watches</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">lighting</a>
+                    </div>
+                    <div className="navbar__option">
+                        <a href="">dvd&nbsp;&&nbsp;blu&#8209;ray</a>
+                    </div>
+
                 </div>
                 <div className="navbar__prime">
                     <PlayCircleFilledWhiteIcon classname='playButton' />
                     <div className="playButtonInner"></div>
-                    <p>amazon prime <span>| 30-day <span>free trial</span></span></p>
+                    <p>amazon&nbsp;prime&nbsp;<span>|&nbsp;30&#8209;day&nbsp;<span>free&nbsp;trial</span></span></p>
 
                     <div class="tri"></div>
                 </div>

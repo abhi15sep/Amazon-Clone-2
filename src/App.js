@@ -6,6 +6,7 @@ import Footer from './Footer';
 import { BrowserRouter as Router, Switch, Route }
   from 'react-router-dom'
 import Checkout from './Checkout';
+import Books from './Books'
 
 function App() {
 return (
@@ -16,6 +17,9 @@ return (
         <Switch>
           <Route path='/checkout'>
             <Checkout />
+          </Route>
+          <Route path='/books'>
+            <Books />
           </Route>
           <Route path='/'>
             <Home />

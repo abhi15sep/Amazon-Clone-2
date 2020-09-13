@@ -72,7 +72,7 @@ function Footer() {
                     <div className="footer__amazonLogo">
                         <img src="/assets/amazon.png" alt="logo" />
                     </div>
-                    <ul className="footer__countriesList">
+                    {/* <ul className="footer__countriesList">
                         <li><a href="#">autralia</a></li>
                         <li><a href="#">brazil</a></li>
                         <li><a href="#">canada</a></li>
@@ -89,7 +89,7 @@ function Footer() {
                         <li><a href="#">turkey</a></li>
                         <li><a href="#">united arab emirates</a></li>
                         <li><a href="#">united states</a></li>
-                    </ul>
+                    </ul> */}
                 </section>
             </div>
 

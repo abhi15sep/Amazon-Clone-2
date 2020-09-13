@@ -1,7 +1,7 @@
 import React from 'react'
 import './ProductPage.scss'
 import Product from './Product'
-function Home() {
+function Books() {
     return (
         <div className='ProductPage'>
             <div className="hero__container">
@@ -16,7 +16,7 @@ function Home() {
 
                 <div className="ProductPage__row">
                     <Product
-                        title='dummy item'
+                        title='Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!'
                         author='Robert T. Kiyosaki'
                         releaseDate='11 Apr 2017'
                         price={29.99}
@@ -24,7 +24,7 @@ function Home() {
                         rating={2}
                     />
                     <Product
-                        title='dummy item'
+                        title='The Lean Startup: How Constant Innovation Creates Radically Successful Businesses'
                         author='Eric Ries'
                         releaseDate='6 Oct 2011'
                         price={10.31}
@@ -81,4 +81,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Books
