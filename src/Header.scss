@@ -89,7 +89,7 @@ input[type=text]:focus {
 }
 
 
-.header2 {
+.navbar {
     display: flex;
     color: #fff;
     height: 37px;
@@ -99,7 +99,7 @@ input[type=text]:focus {
 
 
 
-    .header2__delivery {
+    .navbar__delivery {
         display: flex;
         align-items: center;
         color: #fff;
@@ -114,17 +114,17 @@ input[type=text]:focus {
             font-size: .8rem;
         }
 
-        .header2__deliveryAddress {
+        .navbar__deliveryAddress {
             margin-left: 5px;
         }
     }
 
-    .header2__nav {
+    .navbar__nav {
         display: flex;
 
         align-items: center;
 
-        .header2__option {
+        .navbar__option {
             box-sizing: border-box;
             font-size: .8rem;
             font-weight: bold;
@@ -148,7 +148,7 @@ input[type=text]:focus {
 
     }
 
-    .header2__prime {
+    .navbar__prime {
         display: flex;
         align-items: center;
         font-weight: bold;

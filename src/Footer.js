@@ -99,7 +99,7 @@ function Footer() {
                 <li><a href="#">privacy notice</a></li>
                 <li><a href="">cookies notice</a></li>
                 <li><a href="#">interest-based ads notice</a></li>
-                <li><a href="#">Amazon Clone created by Ejiro Lennox Akpoduado</a></li>
+                <li><a href="https://github.com/ejiro1994">Amazon Clone created by Ejiro Lennox Akpoduado</a></li>
             </ul>
         </div>
     )

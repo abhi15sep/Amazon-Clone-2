@@ -31,6 +31,14 @@ function Home() {
                         image='/assets/books/the-lean-startup.jpg'
                         rating={4}
                     />
+                       <Product
+                        title='The Lean Startup: How Constant Innovation Creates Radically Successful Businesses'
+                        author='Eric Ries'
+                        releaseDate='6 Oct 2011'
+                        price={10.31}
+                        image='/assets/books/the-lean-startup.jpg'
+                        rating={4}
+                    />
                 </div>
                 <div className="home__row">
                     <Product
