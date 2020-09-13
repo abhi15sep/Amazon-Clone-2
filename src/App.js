@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Switch, Route }
   from 'react-router-dom'
 import Checkout from './Checkout';
 import Books from './Books'
+import ComputersAndAccessories from './ComputersAndAccessories'
+import Clothing from './Clothing'
 
 function App() {
 return (
@@ -20,6 +22,12 @@ return (
           </Route>
           <Route path='/books'>
             <Books />
+          </Route>
+          <Route path='/computers'>
+            <ComputersAndAccessories />
+          </Route>
+          <Route path='/clothing'>
+            <Clothing />
           </Route>
           <Route path='/'>
             <Home />

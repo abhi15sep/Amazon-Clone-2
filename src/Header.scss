@@ -140,7 +140,7 @@
 
 
 
-            @include media('>500px', '<=620px') {
+            @include media('>560px', '<=620px') {
                 &:nth-child(-n+1) {
                     display: block;
                 }

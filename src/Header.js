@@ -79,10 +79,10 @@ function Header() {
                         <Link to='/books'>books</Link>
                     </div>
                     <div className="navbar__option">
-                        <a href="">clothing</a>
+                    <Link to='/clothing'>clothing</Link>
                     </div>
                     <div className="navbar__option">
-                        <a href="">computers&nbsp;&&nbsp;accessories</a>
+                    <Link to='/computers'>computers&nbsp;&&nbsp;accessories</Link>
                     </div>
                     <div className="navbar__option">
                         <a href="">home&nbsp;&&nbsp;kitchen</a>
