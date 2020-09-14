@@ -85,7 +85,7 @@ function Header() {
                     <Link to='/computers'>computers&nbsp;&&nbsp;accessories</Link>
                     </div>
                     <div className="navbar__option">
-                        <a href="">home&nbsp;&&nbsp;kitchen</a>
+                    <Link to='/kitchen'>home&nbsp;&&nbsp;kitchen</Link>
                     </div>
                     <div className="navbar__option">
                         <a href="">garden&nbsp;&&nbsp;outdoor</a>

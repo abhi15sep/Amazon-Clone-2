@@ -9,6 +9,7 @@ import Checkout from './Checkout';
 import Books from './Books'
 import ComputersAndAccessories from './ComputersAndAccessories'
 import Clothing from './Clothing'
+import HomeAndKitchen from './HomeAndKitchen'
 
 function App() {
 return (
@@ -28,6 +29,9 @@ return (
           </Route>
           <Route path='/clothing'>
             <Clothing />
+          </Route>
+          <Route path='/kitchen'>
+            <HomeAndKitchen />
           </Route>
           <Route path='/'>
             <Home />

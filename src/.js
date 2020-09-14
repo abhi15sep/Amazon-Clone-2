@@ -14,10 +14,10 @@ function ComputersAndAccessories() {
             <div className="ProductPage__container">
                 <div className="ProductPage__row">
                     <Product
-                        title="New Apple iMac with Retina 5K display (27-inch, 8GB RAM, 512GB SSD Storage)"
-                        // author="Robert T. Kiyosaki"
+                        title="comupters"
+                        author="Robert T. Kiyosaki"
                         releaseDate="11 Apr 2017"
-                        price={2200.29}
+                        price={29.99}
                         image="/assets/computers-&-accessories/imac.jpg"
                         rating={2}
                     />

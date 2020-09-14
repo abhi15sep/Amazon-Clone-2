@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductPage.scss";
 import Product from "./Product";
-function ComputersAndAccessories() {
+function HomeAndKitchen() {
     return (
         <div className="ProductPage">
             <div className="hero__container">
@@ -14,11 +14,11 @@ function ComputersAndAccessories() {
             <div className="ProductPage__container">
                 <div className="ProductPage__row">
                     <Product
-                        title="New Apple iMac with Retina 5K display (27-inch, 8GB RAM, 512GB SSD Storage)"
-                        // author="Robert T. Kiyosaki"
+                        title="kitchen"
+                        author="Robert T. Kiyosaki"
                         releaseDate="11 Apr 2017"
-                        price={2200.29}
-                        image="/assets/computers-&-accessories/imac.jpg"
+                        price={29.99}
+                        image="/assets/kitchen/steamers.png"
                         rating={2}
                     />
                     <Product
@@ -26,7 +26,7 @@ function ComputersAndAccessories() {
                         author="Eric Ries"
                         releaseDate="6 Oct 2011"
                         price={10.31}
-                        image="/assets/computers-&-accessories/imac-pro.jpg"
+                        image="/assets/kitchen/cooker.png"
                         rating={4}
                     />
                     <Product
@@ -34,7 +34,7 @@ function ComputersAndAccessories() {
                         author="Marijn Haverbeke"
                         releaseDate="14 Dec. 2018"
                         price={22.93}
-                        image="/assets/computers-&-accessories/ipad-pro.jpg"
+                        image="/assets/kitchen/kettle.png"
                         rating={4}
                     />
                 </div>
@@ -44,7 +44,7 @@ function ComputersAndAccessories() {
                         author="Marijn Haverbeke"
                         releaseDate="14 Dec. 2018"
                         price={22.93}
-                        image="/assets/computers-&-accessories/macbook-air.jpg"
+                        image="/assets/kitchen/coffee.png"
                         rating={4}
                     />
                     <Product
@@ -52,7 +52,7 @@ function ComputersAndAccessories() {
                         author="Daniel Levitin"
                         releaseDate="14 Dec. 2018"
                         price={22.93}
-                        image="/assets/computers-&-accessories/macbook-pro.jpg"
+                        image="/assets/kitchen/washing-machine.png"
                         rating={4}
                     />
                     <Product
@@ -60,7 +60,7 @@ function ComputersAndAccessories() {
                         author="Simon Sinek"
                         releaseDate="6 Oct 2011"
                         price={7.38}
-                        image="/assets/computers-&-accessories/macbook-16-inch.jpg"
+                        image="/assets/kitchen/washing-machine.png"
                         rating={4}
                     />
                 </div>
@@ -70,7 +70,7 @@ function ComputersAndAccessories() {
                         author="Eric Ries"
                         releaseDate="6 Oct 2011"
                         price={10.31}
-                        image="/assets/computers-&-accessories/imac-mini.jpg"
+                        image="/assets/kitchen/imac-mini.png"
                         rating={4}
                     />
                 </div>
@@ -79,4 +79,4 @@ function ComputersAndAccessories() {
     );
 }
 
-export default ComputersAndAccessories;
+export default HomeAndKitchen;
