@@ -1,4 +1,4 @@
-![project screenshot](public/assets/readme/amazon-clone.png)
+![project screenshot](public/assets/readme/amazon-clone.webp)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
